@@ -9,6 +9,7 @@
 
 
 class Matrix:
+
     def __init__(self, matrix_list: list):
         self._matrix_list = matrix_list
         self.rows = len(matrix_list)

@@ -15,9 +15,11 @@ class Clothes(ABC):
     def __init__(self, type):
         self._type = type
 
+
     @property
     def type(self):
         return self._type
+
 
     @property
     @abstractmethod

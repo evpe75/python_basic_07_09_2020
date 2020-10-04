@@ -28,6 +28,7 @@
 """
 
 class Cell:
+
     def __init__(self, count: int):
         self._count = count
 
@@ -58,8 +59,6 @@ class Cell:
 
     def make_order(cell, count_in_row: int):
         return ("*" * count_in_row + "\n") * (cell.count // count_in_row) + "*" * (cell.count % count_in_row) +"\n"
-
-
 
 
 if __name__ == '__main__':
